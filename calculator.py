@@ -1,6 +1,6 @@
 #Simple Python 2 Calculator
 
-print "WELCOME TO BHERING CALCULATOR"
+print ("WELCOME TO BHERING CALCULATOR")
 
 x = int(input("Enter the first number: "))
 y = int(input("Enter the second number: "))
@@ -21,18 +21,18 @@ def multiply(x, y):
 def division(x, y):
     return x / y
 
-operation = input("Select (add, subtraction, multiply, division): ")
+operation = raw_input("Select (+, -, *, /): ")
 
-if operation == add:
+if operation == '+':
     print add(x, y)
 
-if operation == subtraction:
+if operation == '-':
     print subtraction(x, y)
 
-if operation == multiply:
+if operation == '*':
     print multiply(x, y)
 
-if operation == division:
+if operation == '/':
     print division(x, y)
 
 
